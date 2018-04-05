@@ -3,6 +3,9 @@
  plot_utilities.py (author: Anson Wong / git: ankonzoid)
 
 """
+import matplotlib
+matplotlib.use('Agg')
+
 import matplotlib.pyplot as plt
 
 def plot_query_answer(x_query=None, x_answer=None, filename=None, gray_scale=False, n=5):
